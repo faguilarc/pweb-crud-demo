@@ -6,6 +6,9 @@ import java.util.List;
 
 public interface YearService {
     List<YearDto> getYears();
+
+    YearDto getYearById(Integer yearId);
+
     void createYear(YearDto year);
     void updateYear(YearDto year);
     void deleteYear(YearDto year);

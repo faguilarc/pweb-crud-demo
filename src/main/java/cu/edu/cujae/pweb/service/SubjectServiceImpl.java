@@ -11,12 +11,12 @@ public class SubjectServiceImpl implements SubjectService{
     @Override
     public List<SubjectDto> getSubjects() {
         List<SubjectDto> subjects = new ArrayList<>();
-
+/*
         subjects.add(new SubjectDto(1,"Diseño Software"));
         subjects.add(new SubjectDto(2,"Programación web"));
         subjects.add(new SubjectDto(3,"Ingeniería de Requisitos Avanzada"));
         subjects.add(new SubjectDto(3,"Seguridad Informática"));
-
+*/
         return subjects;
     }
 
